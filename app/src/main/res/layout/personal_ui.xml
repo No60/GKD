@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:text="我"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="350dp"
+        android:layout_y="0dp"
+        app:srcCompat="@android:drawable/ic_menu_manage" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="30dp"
+        android:layout_y="75dp"
+        app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_x="150dp"
+        android:layout_y="90dp"
+        android:text="昵称" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_x="150dp"
+        android:layout_y="135dp"
+        android:text="运动目标" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="50dp"
+        android:layout_y="220dp"
+        android:text="关注" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="150dp"
+        android:layout_y="220dp"
+        android:text="粉丝" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="250dp"
+        android:layout_y="220dp"
+        android:text="动态" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/running_data"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_x="30dp"
+        android:layout_y="320dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_x="230dp"
+        android:layout_y="320dp" />
+
+    <ImageButton
+        android:id="@+id/social"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="70dp"
+        android:layout_y="560dp"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+    <ImageButton
+        android:id="@+id/running"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="170dp"
+        android:layout_y="560dp"
+        app:srcCompat="@android:drawable/ic_menu_myplaces" />
+
+    <ImageButton
+        android:id="@+id/personnal"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="270dp"
+        android:layout_y="560dp"
+        app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+</AbsoluteLayout>

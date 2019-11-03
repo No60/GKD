@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:text="动态"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="350dp"
+        android:layout_y="0dp"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="65dp" />
+
+    <ImageButton
+        android:id="@+id/social"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="70dp"
+        android:layout_y="560dp"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+    <ImageButton
+        android:id="@+id/running"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="170dp"
+        android:layout_y="560dp"
+        app:srcCompat="@android:drawable/ic_menu_myplaces" />
+
+    <ImageButton
+        android:id="@+id/personnal"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="270dp"
+        android:layout_y="560dp"
+        app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+</AbsoluteLayout>

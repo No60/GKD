@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_x="0px"
+        android:layout_y="0px"
+        android:text="跑步"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/运动距离"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_x="105dp"
+        android:layout_y="70dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="160dp"
+        android:layout_y="285dp"
+        android:text="ToggleButton"
+        android:textOff="播放"
+        android:textOn="暂停" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="270dp"
+        android:layout_y="285dp"
+        android:text="下一首" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="50dp"
+        android:layout_y="285dp"
+        android:text="上一首" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_x="70dp"
+        android:layout_y="380dp"
+        android:text="ToggleButton"
+        android:textOff="开始跑步"
+        android:textOn="暂停跑步" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="265dp"
+        android:layout_y="430dp"
+        android:text="结束" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="340dp"
+        android:text="歌词" />
+
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_x="125dp"
+        android:layout_y="160dp"
+        android:format="%s"
+        android:gravity="center"
+        android:textSize="80px" />
+
+    <ImageButton
+        android:id="@+id/social"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="70dp"
+        android:layout_y="560dp"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+    <ImageButton
+        android:id="@+id/running"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="170dp"
+        android:layout_y="560dp"
+        app:srcCompat="@android:drawable/ic_menu_myplaces" />
+
+    <ImageButton
+        android:id="@+id/personnal"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="270dp"
+        android:layout_y="560dp"
+        app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_x="40dp"
+        android:layout_y="230dp"
+        android:text="歌曲名" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="135dp"
+        android:layout_height="35dp"
+        android:layout_x="240dp"
+        android:layout_y="230dp"
+        android:text="歌手名" />
+
+</AbsoluteLayout>
